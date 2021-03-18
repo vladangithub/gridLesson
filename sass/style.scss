@@ -5,6 +5,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+.grid-container {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-elem {
     //height: 50px;
     background-color: #E2725B;
@@ -17,16 +24,16 @@
 
 }
 
-.grid-container {
-    display: grid;
+//.grid-container {
+    //display: grid;
     //создание колонок
     //grid-template-columns: 200px 200px 200px;
     //создание строк
     //grid-template-rows: 60px 150px 60px;
-    grid-template: 60px 150px 60px / 200px 200px 200px;
-    gap: 20px;
+    //grid-template: 60px 150px 60px / 200px 200px 200px;
+    //gap: 20px;
 
-}
+//}
 
 //.grid-container {
 //    width: 1140px;
