@@ -21,6 +21,6 @@ git checkout СБРОСИТЬ ПРЕДЫДУЩИЕ ИЗМЕНЕНИЯ
 
 git remote add origin https://github.com/azesmDotCom/PetWatch.git создаём репозиторий и копируем первую команду из его описания
 git branch -M main
- 
+git push -u origin main
 
 
